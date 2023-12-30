@@ -8,7 +8,8 @@
         "start": "next start",
         "lint": "next lint",
         "prepare": "husky install",
-        "commit": "git-cz"
+        "commit": "git-cz",
+        "format-file": "npx prettier . --write"
     },
     "dependencies": {
         "@prisma/client": "5.7.1",
